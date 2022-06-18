@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        background-color: hsl(0, 0%, 95%);
+    }
+    main {
+        width: 1440px;
+        height: 800px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .content {
+        width: 1075px;
+        display: flex;
+        flex-direction: row;
+        padding: 100px;
+        /* border: 2px solid black; */
+        border-radius: 5px;
+    }
+    .sedan {
+        width: 375px;
+        height: 75%;
+        padding: 2em;
+        background-color: hsl(31, 77%, 52%);
+        border-left: 2px solid hsl(31, 77%, 52%);
+        border-bottom-left-radius: 6px;
+        border-top-left-radius: 6px;
+    }
+    .suv {
+        width: 375px;
+        height: 75%;
+        padding: 2em;
+        background-color: hsl(184, 100%, 22%);
+    }
+    .luxury {
+        width: 375px;
+        height: 75%;
+        padding: 2em;
+        background-color: hsl(179, 100%, 13%);
+        border-right: 2px solid hsl(179, 100%, 13%);
+        border-bottom-right-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    img {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    h3 {
+        padding-bottom: 40px;
+        color: hsl(0, 0%, 95%);
+        font-family: Big Shoulders Display;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    p {
+        font-family: Legend Dexa;
+        font-weight: 300;
+        font-size: 15px;
+        padding-bottom: 60px;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    button {
+        margin-top: 20px;
+        height: 40px;
+        width: 120px;
+        border: 1px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    #first {
+        color: hsl(31, 77%, 52%);
+    }
+    #second {
+        color: hsl(184, 100%, 22%);
+    }
+    #third {
+        color: hsl(179, 100%, 13%);
+    }
+}
